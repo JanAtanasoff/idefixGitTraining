@@ -1,6 +1,6 @@
 package bibliotek80;
 import org.deformation.utilities.*;
-
+/*Work Hard*/
 public class Laan {
 private Person laaner;
 private BogEksemplar bog;
