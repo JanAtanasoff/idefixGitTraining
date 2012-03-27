@@ -25,13 +25,13 @@ public class Laan {
 	public Person getLaaner(){
 		return this.laaner;
 	}
-	
+	//overide toString
 	public String toString(){
-		String s = "Låner: " + this.laaner.getNavn() + "<br /> ";
+		String s = "Lï¿½ner: " + this.laaner.getNavn() + "<br /> ";
 		s += "Bog: " + this.bog + "<br />";
-		s += "Udlåningsdato: " + this.datoUd + "</br >";
+		s += "Udlï¿½ningsdato: " + this.datoUd + "</br >";
 		s += "Afleveringsdato: " + this.datoHjem + "<br />";
-		s += "Bøde: " + this.boede + "<br />";
+		s += "Bï¿½de: " + this.boede + "<br />";
 		
 		return s;
 	}
